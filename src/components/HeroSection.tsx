@@ -12,17 +12,17 @@ export default function HeroSection({ selectedColor }: { selectedColor: number }
       {/* Título principal */}
       <div className="mb-6">
         <h1 className="text-4xl font-bold text-gray-900 flex items-center gap-2">
-          Mercedes-Benz
+          Chevrolet
           <span className="w-5 h-5 bg-gray-200 rounded-full flex items-center justify-center text-xs text-gray-500 cursor-pointer">i</span>
         </h1>
-        <p className="text-lg text-gray-500 mt-1">AMG C 63 S Coupe - 2023</p>
+        <p className="text-lg text-gray-500 mt-1">Camaro - 2016</p>
       </div>
 
       {/* Contenedor imagen + hotspots */}
       <div className="relative w-full max-w-4xl mx-auto">
         <Image
           src={colorOptions[selectedColor].image}
-          alt="Mercedes-AMG C63 S Coupe"
+          alt="Chevrolet Camaro 2016"
           width={800}
           height={400}
           className="w-full h-auto rounded-2xl"

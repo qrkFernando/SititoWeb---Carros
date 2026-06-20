@@ -15,16 +15,16 @@ export const colorOptions = [
 ];
 
 export const hotspots = [
-  { name: "AMG Night Pack", top: "45%", left: "30%" },
-  { name: "AMG Body Style", top: "35%", left: "55%" },
+  { name: "Paquete Noche", top: "45%", left: "30%" },
+  { name: "Estilo Deportivo", top: "35%", left: "55%" },
   { name: "Rendimiento Puro", top: "60%", left: "65%" },
-  { name: "Panorama Roof", top: "25%", left: "45%" },
+  { name: "Techo Panorámico", top: "25%", left: "45%" },
 ];
 
 export const specs = [
   { icon: "👤", label: "Pasajeros", value: "4" },
-  { icon: "⚙️", label: "Motor", value: "AMG 4.0L V8 biturbo" },
-  { icon: "⚡", label: "Potencia", value: "503 hp" },
-  { icon: "🔄", label: "Transmisión", value: "MCT 9-speed" },
-  { icon: "🚀", label: "Aceleración", value: "3.7 s (0-100)" },
+  { icon: "⚙️", label: "Motor", value: "6.2L V8 Supercargado" },
+  { icon: "⚡", label: "Potencia", value: "650 hp" },
+  { icon: "🔄", label: "Transmisión", value: "Automática 10 vel." },
+  { icon: "🚀", label: "Aceleración", value: "3.5 s (0-100)" },
 ];

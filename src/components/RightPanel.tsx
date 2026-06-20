@@ -8,7 +8,7 @@ export default function RightPanel() {
           <h3 className="font-semibold text-sm">Potencia Inigualable</h3>
         </div>
         <p className="text-xs text-gray-300 leading-relaxed">
-          Un V8 biturbo artesanal de 503 hp libera un torrente de 516 lb-ft de torque.
+          Un V8 supercargado de 650 hp libera un torrente de 650 lb-ft de torque.
           Un estilo agresivo envuelve tecnologías avanzadas.
         </p>
       </div>

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Cars Sell Center - Mercedes-Benz AMG C63 S Coupe",
+  title: "Cars Sell Center - Chevrolet Camaro ZL1",
   description: "Descubre el Mercedes-AMG C 63 S Coupe 2023",
 };
 
