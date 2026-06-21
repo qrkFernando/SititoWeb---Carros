@@ -18,6 +18,7 @@ export default function CarPageContent() {
         <HeroSection selectedColor={selectedColor} />
         <RightPanel />
       </div>
+      
       <FeatureHighlights selectedColor={selectedColor} onColorChange={setSelectedColor} />
     </main>
   );
