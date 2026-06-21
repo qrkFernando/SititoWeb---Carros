@@ -1,5 +1,5 @@
-import CarPageContent from "@/components/CarPageContent";
+import HeroInicio from "@/components/HeroInicio";
 
 export default function Home() {
-  return <CarPageContent />;
+  return <HeroInicio />;
 }

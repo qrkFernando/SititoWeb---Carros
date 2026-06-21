@@ -1,6 +1,6 @@
 "use client";
 
-import type { SpecCardData } from "@/data/specCards";
+import type { SpecCardData } from "@/components/specCards";
 
 export default function SpecCard({ card }: { card: SpecCardData }) {
   const s = card.style || {};

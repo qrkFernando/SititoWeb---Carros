@@ -1,5 +1,10 @@
 export const navigationItems = [
-  "Modelos", "Servicios", "Experiencia", "Tienda", "Comprar", "Configurar"
+  { label: "Inicio", slug: "" },
+  { label: "Modelos", slug: "modelos" },
+  { label: "Servicios", slug: "servicios" },
+  { label: "Experiencia", slug: "experiencia" },
+  { label: "Tienda", slug: "tienda" },
+  { label: "Comprar", slug: "comprar" },
 ];
 
 export const sidebarCategories = [
@@ -7,11 +12,11 @@ export const sidebarCategories = [
 ];
 
 export const colorOptions = [
-  { name: "Gris", hex: "#808080", image: "/images/CamaroGris.png" },
-  { name: "Rojo", hex: "#cc0000", image: "/images/CamaroRojo.png" },
-  { name: "Azul", hex: "#0044cc", image: "/images/CamaroAzul.png" },
-  { name: "Dorado", hex: "#c9a84c", image: "/images/CamaroDorado.png" },
-  { name: "Negro", hex: "#1a1a1a", image: "/images/CamaroNegro.png" },
+  { name: "Gris", hex: "#808080", image: "/images/Camaro/CamaroGris.png" },
+  { name: "Rojo", hex: "#cc0000", image: "/images/Camaro/CamaroRojo.png" },
+  { name: "Azul", hex: "#0044cc", image: "/images/Camaro/CamaroAzul.png" },
+  { name: "Dorado", hex: "#c9a84c", image: "/images/Camaro/CamaroDorado.png" },
+  { name: "Negro", hex: "#1a1a1a", image: "/images/Camaro/CamaroNegro.png" },
 ];
 
 export const hotspots = [

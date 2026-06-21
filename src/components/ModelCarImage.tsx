@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { hotspots, colorOptions } from "@/data/carData";
 
-export default function HeroSection({ selectedColor }: { selectedColor: number }) {
+export default function ModelCarImage({ selectedColor }: { selectedColor: number }) {
   const [activeHotspot, setActiveHotspot] = useState<number | null>(null);
 
   return (

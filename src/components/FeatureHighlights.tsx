@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import specCards from "@/data/specCards";
+import specCards from "@/components/specCards";
 import ColorSelector from "@/components/ColorSelector";
 import Carousel from "@/components/Carousel";
 import CarouselNav from "@/components/CarouselNav";
